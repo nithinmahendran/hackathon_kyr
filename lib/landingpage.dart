@@ -22,7 +22,7 @@ class LandingPage extends StatelessWidget {
               image: DecorationImage(image: AssetImage("assets/final-1.png"))),
         ),
         Text(
-          "Quick Bee",
+          "Know Your Rights!",
           style: TextStyle(fontSize: 24.0, fontWeight: FontWeight.bold),
         )
       ],

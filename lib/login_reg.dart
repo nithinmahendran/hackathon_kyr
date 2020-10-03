@@ -23,7 +23,7 @@ class LoginReg extends StatelessWidget {
               },
               child: Container(
                   decoration: BoxDecoration(
-                      color: Color(0xFF18D191),
+                      color: Color(0XFF153158),
                       borderRadius: BorderRadius.circular(10.0)),
                   width: double.maxFinite,
                   margin: EdgeInsets.all(20.0),

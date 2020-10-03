@@ -54,7 +54,7 @@ class LoginForm extends StatelessWidget {
                             child: Container(
                                 margin: EdgeInsets.only(left: 5, right: 30),
                                 decoration: BoxDecoration(
-                                    color: Color(0XFF18D191),
+                                    color: Color(0XFF153158),
                                     borderRadius: BorderRadius.circular(10.0)),
                                 padding: EdgeInsets.all(15.0),
                                 child: Row(
