@@ -1,4 +1,4 @@
-# hackathon_KYR
+# hackathon_kyr
 # Know Your Rights
 
 # Problem :
