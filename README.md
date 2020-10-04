@@ -1,16 +1,14 @@
 # hackathon_kyr
+# Know Your Rights
 
-A new Flutter project.
+# Problem :
+People are not aware of the law / constitution making them unaware of any situations involved and end up paying a huge sum of money(fine) to the officials unethically and without any documentation.
 
-## Getting Started
+# Solution :
+## Know Your Rights:
+An app which provides you details of all laws which provides them knowledge in any situations and can save yourself from not paying the extra fine as told by the officials. 
+For now we are focussing on motor vehicles.
+We are planning to add all the rules given in our constitution and add an online payment option through which you can pay the fine.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Advantages:
+Can have transperancy between the citizen and the offical and leads to less corruption.
