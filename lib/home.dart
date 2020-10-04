@@ -3,7 +3,7 @@ import 'package:hackathon_kyr/motors.dart';
 // import 'package:hackathon_kyr/motors.dart';
 
 class HomePage extends StatelessWidget {
-  int _currentIndex = 0;
+  // int _currentIndex = 0;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -304,7 +304,7 @@ class HomePage extends StatelessWidget {
           ],
         ),
         bottomNavigationBar: BottomNavigationBar(
-          currentIndex: _currentIndex,
+          // currentIndex: _currentIndex,
           items: [
             BottomNavigationBarItem(
                 icon: Icon(Icons.home), title: Text("Home")),
