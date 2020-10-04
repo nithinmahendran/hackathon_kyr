@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:hackathon_kyr/motors.dart';
+// import 'package:hackathon_kyr/motors.dart';
 
 class HomePage extends StatelessWidget {
   int _currentIndex = 0;
@@ -55,7 +57,10 @@ class HomePage extends StatelessWidget {
                       padding: const EdgeInsets.all(25.0),
                       child: Text(
                         'Tip of the Day',
-                        style: TextStyle(color: Colors.white, fontSize: 20),
+                        style: TextStyle(
+                            color: Colors.white,
+                            fontSize: 40,
+                            fontWeight: FontWeight.bold),
                       ),
                     ),
                     SizedBox(
@@ -66,7 +71,7 @@ class HomePage extends StatelessWidget {
                       child: Container(
                         width: 280.0,
                         child: Text(
-                          'yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy',
+                          'At the time of driving if your 100ml ,blood contains more than 30mg of alcohol then the police can arrest you without a warrant.',
                           style: TextStyle(
                             color: Colors.white,
                             fontSize: 15,
@@ -92,9 +97,9 @@ class HomePage extends StatelessWidget {
                   child: Padding(
                     padding: const EdgeInsets.all(8.0),
                     child: Container(
-                      height: 100.0,
+                      height: 100,
                       decoration: BoxDecoration(
-                          color: Color(0XFFF67283),
+                          color: Color(0XFFFE7B45),
                           borderRadius: BorderRadius.circular(5.0)),
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.center,
@@ -103,7 +108,15 @@ class HomePage extends StatelessWidget {
                           Text(
                             "Motors",
                             style: TextStyle(color: Colors.white),
-                          )
+                          ),
+                          GestureDetector(
+                            onTap: () {
+                              Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                      builder: (context) => MotorPage()));
+                            },
+                          ),
                         ],
                       ),
                     ),
@@ -118,14 +131,14 @@ class HomePage extends StatelessWidget {
                         Container(
                           width: double.infinity,
                           decoration: BoxDecoration(
-                              color: Color(0XFFF67283),
+                              color: Color(0XFF19D192),
                               borderRadius: BorderRadius.circular(5.0)),
                           child: Column(
                             mainAxisAlignment: MainAxisAlignment.center,
                             children: [
-                              Icon(Icons.local_car_wash, color: Colors.white),
+                              Icon(Icons.landscape, color: Colors.white),
                               Text(
-                                "Motors",
+                                "Real Estate ",
                                 style: TextStyle(color: Colors.white),
                               )
                             ],
@@ -137,7 +150,7 @@ class HomePage extends StatelessWidget {
                         Container(
                           width: double.infinity,
                           decoration: BoxDecoration(
-                              color: Color(0XFFF67283),
+                              color: Color(0XFFFE7B45),
                               borderRadius: BorderRadius.circular(5.0)),
                           child: Column(
                             mainAxisAlignment: MainAxisAlignment.center,
@@ -163,7 +176,7 @@ class HomePage extends StatelessWidget {
                         Container(
                           width: double.infinity,
                           decoration: BoxDecoration(
-                              color: Color(0XFFF67283),
+                              color: Color(0XFF4ECDDC),
                               borderRadius: BorderRadius.circular(5.0)),
                           child: Column(
                             mainAxisAlignment: MainAxisAlignment.center,
@@ -182,7 +195,7 @@ class HomePage extends StatelessWidget {
                         Container(
                           width: double.infinity,
                           decoration: BoxDecoration(
-                              color: Color(0XFFF67283),
+                              color: Color(0XFFFFC649),
                               borderRadius: BorderRadius.circular(5.0)),
                           child: Column(
                             mainAxisAlignment: MainAxisAlignment.center,
@@ -205,7 +218,7 @@ class HomePage extends StatelessWidget {
               padding: const EdgeInsets.all(8.0),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: [Text("Popular Trending"), Text("View All")],
+                children: [Text("Browse "), Text("View All")],
               ),
             ),
             Row(
@@ -214,7 +227,7 @@ class HomePage extends StatelessWidget {
                   child: Padding(
                     padding: const EdgeInsets.all(8.0),
                     child: Container(
-                      height: 150,
+                      height: 200,
                       child: Column(
                         children: [
                           Container(
@@ -224,12 +237,13 @@ class HomePage extends StatelessWidget {
                                 image: DecorationImage(
                                     fit: BoxFit.cover,
                                     image: NetworkImage(
-                                        "https://images.pexels.com/photos/442576/pexels-photo-442576.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"))),
+                                        "https://www.iconfinder.com/data/icons/real-estate-glyph-4/64/growth-512.png"))),
                           ),
                           SizedBox(
                             height: 10,
                           ),
-                          Text("Play Station")
+                          Text(
+                              "The Real Estate (Regulation and Development) Act, 2016")
                         ],
                       ),
                     ),
@@ -239,7 +253,7 @@ class HomePage extends StatelessWidget {
                   child: Padding(
                     padding: const EdgeInsets.all(8.0),
                     child: Container(
-                      height: 150,
+                      height: 200,
                       child: Column(
                         children: [
                           Container(
@@ -249,12 +263,12 @@ class HomePage extends StatelessWidget {
                                 image: DecorationImage(
                                     fit: BoxFit.cover,
                                     image: NetworkImage(
-                                        "https://images.pexels.com/photos/442576/pexels-photo-442576.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"))),
+                                        "https://www.certification-india.com/en/wp-content/uploads/sites/2/2020/02/Bureau-of-Indian-Standards-logo.jpg"))),
                           ),
                           SizedBox(
                             height: 10,
                           ),
-                          Text("Play Station")
+                          Text("The Bureau of Indian Standards Act, 2016")
                         ],
                       ),
                     ),
@@ -264,7 +278,7 @@ class HomePage extends StatelessWidget {
                   child: Padding(
                     padding: const EdgeInsets.all(8.0),
                     child: Container(
-                      height: 150,
+                      height: 200,
                       child: Column(
                         children: [
                           Container(
@@ -274,12 +288,12 @@ class HomePage extends StatelessWidget {
                                 image: DecorationImage(
                                     fit: BoxFit.cover,
                                     image: NetworkImage(
-                                        "https://images.pexels.com/photos/442576/pexels-photo-442576.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"))),
+                                        "https://thumbs.gfycat.com/DeafeningSlowAfricancivet-mobile.jpg"))),
                           ),
                           SizedBox(
                             height: 10,
                           ),
-                          Text("Play Station")
+                          Text("National Waterways Act,2016")
                         ],
                       ),
                     ),
@@ -299,11 +313,11 @@ class HomePage extends StatelessWidget {
             BottomNavigationBarItem(
                 icon: Icon(Icons.insert_drive_file), title: Text("New Issue")),
           ],
-          onTap: (index) {
-            setState(() {
-              _currentIndex = index;
-            });
-          },
+          // onTap: (index) {
+          //   setState(() {
+          //     _currentIndex = index;
+          //   });
+          // },
         ));
   }
 }
